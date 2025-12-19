@@ -2,6 +2,7 @@
   "name": "viagem-frontend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "axios": "^1.6.2",
     "date-fns": "^3.0.0",
