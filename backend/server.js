@@ -15,6 +15,7 @@ app.use(cors({
     origin: [
         'http://localhost:3000',
         'http://localhost:5173',
+        'https://thankful-river-07f9f4f0f.3.azurestaticapps.net',
         'https://viagem-aparecida.z13.web.core.windows.net',
         'https://green-field-04aba1210.5.azurestaticapps.net'
     ],
