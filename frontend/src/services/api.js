@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: 'https://viagem-aparecida-api.azurewebsites.net/api',
 });
 
 // Interceptor para adicionar token em todas as requisições
