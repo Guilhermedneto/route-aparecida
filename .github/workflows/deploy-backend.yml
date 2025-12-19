@@ -23,9 +23,8 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: |
-        cd backend
-        npm ci --production
+      run: npm ci --production
+      working-directory: ./backend
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
