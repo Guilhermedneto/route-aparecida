@@ -31,3 +31,10 @@ yarn-error.log*
 *.tmp
 *.temp
 nul
+
+# Credenciais de deploy — nunca versionar.
+# Estes dois ja estiveram no repositorio: publish profile do Azure e token do
+# Static Web Apps, ambos com valor real, em repositorio publico.
+*publish-profile*.xml
+*deployment-token*.txt
+*.publishsettings
